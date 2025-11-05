@@ -23,7 +23,7 @@ jobs:
       - name: Build
         working-directory: frontend
         run: |
-          npm clean install
+          npm clean-install
           npm run build
 
       - name: Upload artifact
