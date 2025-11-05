@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+body, #id {
+    width: 100svw;
+    width: 100vw;
+    height: 100svh;
+    height: 100vh;
+}
